@@ -22,7 +22,7 @@
 body {
   color: var(--color-white);
   background-color: #13131f;
-  overflow-x: hidden;
+/*   overflow-x: hidden; */
   margin: auto;
 }
 
