@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Karen | Portfólio </title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="./img/logobranco.png" alt="logo" id="logo">
+        </div>
+        <div class="itensNav">
+            <div class="dark">
+                <input type="checkbox" class="checkbox" id="chk" />
+                <label class="label" for="chk">
+                    <i id="darkMode" class="fas fa-moon"></i>
+                    <!-- <i class="fas fa-moon"></i>  -->
+                    <div class="ball"></div>
+                </label>
+            </div>
+            <button onclick="abrirContatos()" class="btnContatos">Contatos</button>
+
+            <div class="contactsItens">
+                <div class="lista">
+                    <h1>Minhas redes sociais</h1>
+                                   <div class="redesSociaisLista"></div>
+                                   <button onclick="fecharContatos()" class="fecharContato">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="header" data-aos="fade-up">
+            <div class="textHeader">
+                <div class="textHeader">
+                    <p>Olá, eu sou</p>
+                    <p class="diferentColor">Karen</p>
+                </div>
+                <br>
+                <div class="textHeader">
+                    <p>Web Developer</p>
+                </div>
+            </div>
+            <div class="textHeader">
+            <i class="fa-solid fa-mug-hot"></i>
+            </div>
+        </div>
+    </header>
+        <div class="circleTwo" data-aos="fade-down-left"></div>
+        <div class="circleOne" data-aos="fade-down-right"></div>
+        <div class="circleTree" data-aos="fade-up-left"></div>
+        <div class="circleFour" data-aos="fade-up-right"></div>
+    <section id="about" data-aos="fade-up">
+        <div class="containerAbout">
+            <img src="./img/for.png" alt="" id="meImg">
+            <div class="descriptionAbout">
+                <div class="textAbout">
+                    <i class="fa-sharp fa-solid fa-code"></i>
+                    <p>DESENVOLVEDORA FULL-STACK</p>
+                </div>
+                <div class="textAbout">
+                    <p>Meu nome é Karen Alana, tenho 23 anos e atuo na área de desenvolvimento web.</p>
+                </div>
+                <div class="textAbout">
+                    <p>Atualmente, estou cursando Ciência da Computação, aprofundando meus conhecimentos e construindo uma base sólida na área. Compartilho regularmente conteúdos voltados para desenvolvedores(as) em meu perfil no Instagram e YouTube. Minhas principais habilidades de programação estão concentradas em JavaScript e desenvolvimento back-end, com experiência em frameworks como Express, MongoDB e Next.js, entre outros. Tenho focado em projetos acadêmicos que me permitem aplicar e consolidar conceitos de CRUD.</p>
+                </div>               
+                <div class="bottomAbout">
+                    <div class="btnCV">
+                        <a href="./img/CurriculoKaren.pdf" target="_blank">
+                            <p>DOWNLOAD CV</p>
+                            <i class="fa-solid fa-download"></i>
+                        </a>
+                    </div>
+                    <div class="redesLista">
+                       <div class="redesSociaisLista"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+  <section id="projects" data-aos="fade-up">
+        <h1>Principais Projetos</h1>
+        <div class="containerProjeto">
+            <div class="projeto">
+              <a href="https://gerenciador-010101.netlify.app/" target="_blank">
+                <img src="./img/img03.png" alt="" />
+              </a>
+            </div>
+            <div class="projeto">
+              <a
+                href="https://karenalana.github.io/projeto-best-food/home.html"
+                target="_blank"
+              >
+                <img src="./img//img01.png" alt="" />
+              </a>
+            </div>  
+             <div class="projeto">
+              <a
+                href="https://karenalana.netlify.app/"
+                target="_blank"
+              >
+                <img src="./img//img04.png" alt="" />
+              </a>
+            </div>              
+            <div class="projeto">
+              <a
+                href="https://karenalana.github.io/lista-de-tarefa/index.html"
+                target="_blank"
+              >
+                <img src="./img//img02.png" alt="" />
+              </a>
+            </div>           
+                 
+          </div>
+    </section>    
+    <section id="skills" data-aos="fade-up">
+        <h2>HARD-SKILLS</h2>
+        <h1>Habilidades</h1>
+        <div class="skillsContainer">
+            <div class="skills">
+                <div class="skillsIco">
+                    <i class="fa-brands fa-html5"></i>
+                </div>
+                <div class="skillContainer">
+                    <h4>HTML</h4>
+                </div>
+            </div>
+            <div class="skills">
+                <div class="skillsIco">
+                    <i class="fa-brands fa-css3-alt"></i>
+                </div>
+                <div class="skillContainer">
+                    <h4>CSS</h4>
+                </div>
+            </div>
+            <div class="skills">
+                <div class="skillsIco">
+                    <i class="fa-brands fa-js"></i>
+                </div>
+                <div class="skillContainer">
+                    <h4>JS</h4>
+                </div>
+            </div>
+            <div class="skills">
+                <div class="skillsIco">
+                    <i class="fa-brands fa-node"></i>
+                </div>
+                <div class="skillContainer">
+                    <h4>NODE.JS</h4>
+                </div>
+            </div>
+            <div class="skills">
+                <div class="skillsIco">
+                    <i class="fa-brands fa-react"></i>
+                </div>
+                <div class="skillContainer">
+                    <h4>REACT</h4>
+                </div>
+            </div>
+            <div class="skills">
+                <div class="skillsIco">
+                    <i id="typescript">TS</i>
+                </div>
+                <div class="skillContainer">
+                    <h4>TYPESCRIPT</h4>
+                </div>
+            </div>
+            <div class="skills">
+                <div class="skillsIco">
+                    <i id="nextjs">NEXT.js</i>
+                </div>
+                <div class="skillContainer">
+                    <h4>NEXT.JS</h4>
+                </div>
+            </div>
+            <div class="skills">
+                <div class="skillsIco">
+                    <i class="fa-solid fa-database"></i>
+                </div>
+                <div class="skillContainer">
+                    <h4>MONGO_DB</h4>
+                </div>
+            </div>
+            <div class="skills">
+                <div class="skillsIco">
+                  <i>ex</i>
+                </div>
+                <div class="skillContainer">
+                    <h4>EXPRESS</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="academic" data-aos="fade-up">
+        <h2>EDUCAÇÃO</h2>
+        <h1>Acadêmica</h1>
+        <div class="containerAcademic">
+            <div class="academic">
+                <div class="academicCollege">
+                    <p class="college">UNIFACS</p>
+                    <p class="date">Fevereiro de 2022 - Presente</p>
+                </div>
+                <div class="icoAcademicContainer">
+                    <div class="containerIcoAcademic">
+                        <div class="borderIcoAcademic">
+                            <div class="icoAcademic">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="description">
+                    <p class="academical">Ciências da Computação</p>
+                    <p class="type">(Bacharelado)</p>
+                    <p class="description">Curso que forma profissionais qualificados para desenvolver programas e
+                        sistemas
+                        de informática, desde o planejamento do
+                        projeto até a implantação e gerenciamento do software. podendo atuar como desenvolvedor,
+                        programador, analista de TI,
+                        arquiteto de software, gerente de TI ou pesquisador em instituições públicas ou privadas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://kit.fontawesome.com/e78c53c902.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js.js"></script>
+</body>
+</html>
+
+
