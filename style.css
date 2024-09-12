@@ -367,6 +367,7 @@ i {
   padding: 12px;
   border-radius: 0.5rem;
   box-shadow: 0px 4px 12px #93939326;
+  text-align: center;
 }
 
 #typescript,
